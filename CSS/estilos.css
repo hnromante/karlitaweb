@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+    background-image: url(../Recursos/header.jpg);
+   
+}
+
+body {
+    background-image: url(../Recursos/background.jpg);
+    border: 0;
+}
+
+
+body .evento .boton a {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+body .bio p {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 14px;
+    color: white;
+    text-align: justify
+}
+
+    /* ALINEAR IMAGEN  CENTRO*/ 
+.evento .neon  {
+    width:100%;
+    text-align: center;
+}
+.evento .neon img {
+    width: 100%;
+    margin-left:0;
+    margin-right:0;
+}
+    /* ALINEAR BOTON TICKETS CENTRO*/ 
+.evento .boton {
+    background-color: #63F6AB;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    /* width: 960px; */
+}
+    /* ALINEAR BIO CENTRO*/ 
+body .bio {
+    /* width: 960px; */
+    text-align: center;
+    background-color: #A63EFF;
+    opacity: 0.5;
+    margin: 15px;
+    padding: 8px;
+}
+body .bio p {
+    width: 100%;
+}
+
+body header{
+    text-align: center;
+}
+body header .logo img {
+    width: 100%;
+    margin: 0;
+}
